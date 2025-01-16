@@ -8,5 +8,5 @@ export default function Doc({ params }: { params: { slug: string[] } }) {
   } else if (params.slug.length === 1) {
     return <h1>Viewing docs for feature {params.slug[0]}</h1>;
   }
-  return <h1>Docs home page</h1>;
+  return <h1>Docs you are trying to view Does not exist.</h1>;
 }
